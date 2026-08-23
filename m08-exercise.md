@@ -1,13 +1,12 @@
 # 演習 8 日本語訳：Markdown でコミュニケーションする（Communicate using Markdown）
 
-GitHub Skills「Communicate using Markdown」の日本語訳です。演習の本文は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と訳文を見比べながら進めてください。
+GitHub Skills「Communicate using Markdown」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-communicate-using-markdown`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - ボタン名、ファイル名、ブランチ名、入力する文字列は、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：25 分（Step 1〜5 すべて）。ブラウザーだけで完結します。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=communicate-using-markdown&owner=%40me&name=skills-communicate-using-markdown&description=Exercise%3A+Communicate+using+Markdown&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-communicate-using-markdown&owner=%40me&name=skills-communicate-using-markdown&description=Exercise%3A+Communicate+using+Markdown&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---

@@ -1,7 +1,6 @@
 # 演習 5 日本語訳：GitHub Copilot を使い始める（Getting Started with GitHub Copilot）
 
-GitHub Skills「Getting Started with GitHub Copilot」の日本語訳です。演習は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
+GitHub Skills「Getting Started with GitHub Copilot」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-getting-started-with-github-copilot`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - 演習は **Codespace** の中で VS Code と GitHub Copilot を使います。題材は Mergington High School の課外活動申込サイト（Python / FastAPI）です。
 - Copilot を初めて使う場合は、Step 1 でサインインと利用規約への同意を求められます（Copilot Free で構いません）。
@@ -10,7 +9,7 @@ Step 1 から順に表示されます。画面の英語と日本語訳を見比�
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：60 分（Step 1〜5 をすべて授業内で行います）。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=GitHub+Skills:+Getting+Started+with+GitHub+Copilot&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=GitHub+Skills:+Getting+Started+with+GitHub+Copilot&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---

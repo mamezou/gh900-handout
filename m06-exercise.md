@@ -1,13 +1,12 @@
 # 演習 6 日本語訳：Codespaces でコーディングする（Code with Codespaces）
 
-GitHub Skills「Code with Codespaces」の日本語訳です。演習の本文は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と訳文を見比べながら進めてください。
+GitHub Skills「Code with Codespaces」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-code-with-codespaces`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - コマンド、ファイル名、コミットメッセージ、ボタン名、`devcontainer.json` の内容は、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：15 分。授業内の到達点は **Step 1** です。Step 2〜4 は時間があれば、または授業後に進めてください。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=Exercise:+Code+with+Codespaces&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=Exercise:+Code+with+Codespaces&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---

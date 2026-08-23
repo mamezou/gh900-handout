@@ -1,13 +1,12 @@
 # 演習 14 日本語訳：pull request をレビューする（Review pull requests）
 
-GitHub Skills「Review pull requests」の日本語訳です。演習の本文は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
+GitHub Skills「Review pull requests」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-review-pull-requests`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - ボタン名、ファイル名、ブランチ名、pull request のタイトル、コミットメッセージは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：30 分（Step 1〜5）。ブラウザーだけで完結します。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=review-pull-requests&owner=%40me&name=skills-review-pull-requests&description=Exercise%3A+Review+pull+requests&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-review-pull-requests&owner=%40me&name=skills-review-pull-requests&description=Exercise%3A+Review+pull+requests&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---

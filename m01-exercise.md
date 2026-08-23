@@ -1,14 +1,13 @@
 # 演習 1 日本語訳：Git の概要（Introduction to Git）
 
-GitHub Skills「Introduction to Git」の日本語訳です。演習は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
+GitHub Skills「Introduction to Git」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-introduction-to-git`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - コマンド、ファイル名、ブランチ名、コミットメッセージは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 演習では Codespace の中で CLI と VS Code を使います。Step は自分のリポジトリの Issues に順に投稿され、Codespace 内の監視プロセスが作業を検知して次の Step を出します。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：35 分。授業では Step 1〜3 が必須です。Step 4〜6 は時間があれば、または授業後に取り組んでください。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=introduction-to-git&owner=%40me&name=skills-introduction-to-git&description=Exercise:+Introduction+to+Git&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-introduction-to-git&owner=%40me&name=skills-introduction-to-git&description=Exercise:+Introduction+to+Git&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ## 演習で扱う範囲

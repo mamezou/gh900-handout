@@ -1,13 +1,12 @@
 # 演習 15 日本語訳：リポジトリで点をつなげる（Connect the dots）
 
-GitHub Skills「Connect the dots」の日本語訳です。演習の本文は英語で、自分のリポジトリの **README** に
-Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
+GitHub Skills「Connect the dots」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-connect-the-dots`）を指しており、自分のリポジトリの README に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - ボタン名、ファイル名、ブランチ名、コミットメッセージは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、GitHub Actions が README を次の Step に書き換えます。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：25 分（Step 1〜3）。ブラウザーだけで完結します。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=connect-the-dots&owner=%40me&name=skills-connect-the-dots&description=My+clone+repository&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-connect-the-dots&owner=%40me&name=skills-connect-the-dots&description=My+clone+repository&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → リポジトリの **README** に Step 1 が出ます。
 
 ---

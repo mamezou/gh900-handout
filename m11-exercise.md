@@ -1,13 +1,12 @@
 # 演習 11 日本語訳：リポジトリのサプライチェーンを保護する（Secure your repository supply chain）
 
-GitHub Skills「Secure your Repository Supply Chain」の日本語訳です。演習の本文は英語で、自分のリポジトリの
-README または Issues に Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
+GitHub Skills「Secure your Repository Supply Chain」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-secure-repository-supply-chain`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。画面と同じ内容を、手元で読み返す用に載せています。
 
 - ボタン名、タブ名、設定項目名、ファイル名は、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、bot（Mona）が進捗と次の Step をコメントします。出るまで少し待って、ページを再読み込みしてください。
 - 時間の目安：20 分（Step 1〜4）。ブラウザーだけで完結します。Dependabot の処理を待つ場面があります。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=secure-repository-supply-chain&owner=%40me&name=skills-secure-repository-supply-chain&description=Exercise:+Secure+your+Repository+Supply+Chain&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-secure-repository-supply-chain&owner=%40me&name=skills-secure-repository-supply-chain&description=Exercise:+Secure+your+Repository+Supply+Chain&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → Step 1 が出ます。
 
 ---
