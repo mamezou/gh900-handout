@@ -15,6 +15,7 @@
 
 | 資料 | 用途 |
 | --- | --- |
+| [研修で最初に開く 3 つのサイト](access-guide.md) | 初日の冒頭。ESI (Training Key)・Learn・GitHub のサインイン先と手順 |
 | [GitHub アカウントの作成とサインイン](github-account-setup.md) | 初日の冒頭。アカウントが未作成の人はここから |
 
 ## Day 1
