@@ -1,9 +1,9 @@
 # 演習 6 日本語訳：Codespaces でコーディングする（Code with Codespaces）
 
-GitHub Skills「Code with Codespaces」の日本語訳です。演習そのものは英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語とこの訳を見比べながら進めてください。
+GitHub Skills「Code with Codespaces」の日本語訳です。演習の本文は英語で、自分のリポジトリの **Issues** に
+Step 1 から順に表示されます。画面の英語と訳文を見比べながら進めてください。
 
-- コマンド、ファイル名、コミットメッセージ、ボタン名、`devcontainer.json` の内容は、画面と一致させるため英語のままにしています。**指定された名前はそのまま入力してください。** 自動チェックはその名前を見ています。
+- コマンド、ファイル名、コミットメッセージ、ボタン名、`devcontainer.json` の内容は、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは名前を見ています。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：15 分。授業内の到達点は **Step 1** です。Step 2〜4 は時間があれば、または授業後に進めてください。
 
@@ -109,15 +109,15 @@ codespace には、ローカル開発と比べて次のような利点があり�
 
 ## Step 2: codespace でカスタムイメージを使う（Use a custom image in your codespace）
 
-さきほど作った codespace には、リポジトリ側の設定がありませんでした。そのため GitHub が既定の Docker イメージを使いました。これは便利ですが、内容が一定にならず、実行環境のバージョンも固定されません。開発環境を何度でも同じ形で作るには、設定を指定することが重要です。
+さきほど作った codespace には、リポジトリ側の設定がありませんでした。設定がないため、GitHub は既定の Docker イメージを使いました。既定のイメージは便利ですが、内容が一定にならず、実行環境のバージョンも固定されません。開発環境を何度でも同じ形で作るには、設定を指定することが重要です。
 
-ここでは、使う Docker コンテナーイメージを指定してみます。
+使う Docker コンテナーイメージを指定してみます。
 
 ### codespace はどう設定するのか
 
 設定はリポジトリの中の `.devcontainer/devcontainer.json` で直接指定します。設定を複数持つこともできます。
 
-このファイルを作り、よく使う設定をいくつか入れてみましょう。VS Code の設定、ポート転送、ライフサイクルスクリプトの実行といった他の項目については、GitHub の [Codespaces ドキュメント](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces)を参照してください。
+`devcontainer.json` を作り、よく使う設定をいくつか入れてみましょう。VS Code の設定、ポート転送、ライフサイクルスクリプトの実行といった他の項目については、GitHub の [Codespaces ドキュメント](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces)を参照してください。
 
 ### ⌨️ やること：codespace をカスタマイズする
 
@@ -193,7 +193,7 @@ codespace には、ローカル開発と比べて次のような利点があり�
 
 コンテナーの feature、VS Code の拡張機能、VS Code の設定、ホストの要件など、さらに細かく codespace をカスタマイズできます。
 
-ここでは、GitHub CLI と、VS Code で Python プログラムを実行するための拡張機能、そして codespace の初回作成時にパッケージをインストールする独自スクリプトを追加します。
+GitHub CLI と、VS Code で Python プログラムを実行するための拡張機能、そして codespace の初回作成時にパッケージをインストールする独自スクリプトを追加します。
 
 ### ⌨️ やること：Python のサポートを追加する
 
@@ -234,7 +234,7 @@ codespace には、ローカル開発と比べて次のような利点があり�
 
    <img width="250" alt="VS Code の Python 拡張機能" src="https://raw.githubusercontent.com/skills/code-with-codespaces/main/.github/images/python-extensions.png" />
 
-3. それぞれを右クリックし、`Add to devcontainer.json` を選びます。
+3. どちらも右クリックし、`Add to devcontainer.json` を選びます。
 
    <img width="250" alt="Add to devcontainer.json ボタン" src="https://raw.githubusercontent.com/skills/code-with-codespaces/main/.github/images/add-to-devcontainer-button.png" />
 
@@ -254,7 +254,7 @@ codespace には、ローカル開発と比べて次のような利点があり�
 
 ### ⌨️ やること：独自スクリプトを追加する
 
-Dev Container specification には、codespace をさらにカスタマイズするための [ライフサイクルスクリプト](https://containers.dev/implementors/json_reference/#lifecycle-scripts) を実行できる場所が複数あります。ここでは、初回ビルド（または再ビルド）の後に 1 回だけ実行される `postCreateCommand` を追加します。
+Dev Container specification には、codespace をさらにカスタマイズするための [ライフサイクルスクリプト](https://containers.dev/implementors/json_reference/#lifecycle-scripts) を実行できる場所が複数あります。初回ビルド（または再ビルド）の後に 1 回だけ実行される `postCreateCommand` を追加します。
 
 1. VS Code のファイルエクスプローラーで、次の名前のスクリプトファイルを作ります。
 
@@ -376,14 +376,14 @@ codespace を再ビルドしたので、Python の拡張機能、Python のバ�
 
 3. codespace の作成と VS Code の接続に数分かかるので待ちます。
 4. （任意）前の Step でやったことをいくつか試して、同じように動くか確かめます。
-5. この作業が終わったことを Mona に知らせるため、Issue にコメントを追加します。その後、最終レビューが投稿されるまで少し待ちます。
+5. テストが終わったことを Mona に知らせるため、Issue にコメントを追加します。コメント後、最終レビューが投稿されるまで少し待ちます。
 
    ```md
    Hey @professortocat, I've finished testing out my new Codespace.
    I'm ready to review!
    ```
 
-6. お疲れさまでした。これで完了です！ 🎉
+6. お疲れさまでした。完了です！ 🎉
 
 <details>
 <summary>うまくいかないとき 🤷</summary>
@@ -397,4 +397,4 @@ codespace を再ビルドしたので、Python の拡張機能、Python のバ�
 
 - Microsoft Learn に戻り、モジュールの**知識チェック**（モジュール評価）を受けてください。
 - codespace は**停止**してください。削除するかどうかは、授業終了後に各自で判断してください。
-- このリポジトリは削除しないでください。後のモジュールで振り返りに使います。
+- 演習用のリポジトリは削除しないでください。後のモジュールで振り返りに使います。

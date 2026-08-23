@@ -1,11 +1,11 @@
 # 演習 5 日本語訳：GitHub Copilot を使い始める（Getting Started with GitHub Copilot）
 
-GitHub Skills「Getting Started with GitHub Copilot」の日本語訳です。演習そのものは英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語とこの訳を見比べながら進めてください。
+GitHub Skills「Getting Started with GitHub Copilot」の日本語訳です。演習は英語で、自分のリポジトリの **Issues** に
+Step 1 から順に表示されます。画面の英語と日本語訳を見比べながら進めてください。
 
-- この演習は **Codespace** の中で VS Code と GitHub Copilot を使います。題材は Mergington High School の課外活動申込サイト（Python / FastAPI）です。
+- 演習は **Codespace** の中で VS Code と GitHub Copilot を使います。題材は Mergington High School の課外活動申込サイト（Python / FastAPI）です。
 - Copilot を初めて使う場合は、Step 1 でサインインと利用規約への同意を求められます（Copilot Free で構いません）。
-- ボタン名、ファイル名、ブランチ名、コマンド、Copilot に入力するプロンプトは、画面と一致させるため英語のままにしています。**指定された名前はそのまま入力してください。** 自動チェックはその名前を見ています。
+- ボタン名、ファイル名、ブランチ名、コマンド、Copilot に入力するプロンプトは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックが名前を見ています。
 - **Copilot の応答は毎回変わります。** 各所にある「結果の例」（Example Results）は参考例です。同じ結果にならなくても、目的を満たしていれば先に進んでかまいません。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：60 分（Step 1〜5 をすべて授業内で行います）。
@@ -19,7 +19,7 @@ Step 1 から順に表示されます。画面の英語とこの訳を見比べ�
 
 「Getting Started with GitHub Copilot」演習へようこそ！ 🤖
 
-この演習では、GitHub Copilot のいろいろな機能を使って、Mergington High School の生徒が課外活動に申し込めるウェブサイトを作り込んでいきます。 🎻 ⚽️ ♟️
+演習では、GitHub Copilot のいろいろな機能を使って、Mergington High School の生徒が課外活動に申し込めるウェブサイトを作り込んでいきます。 🎻 ⚽️ ♟️
 
 <img width="600" alt="Mergington High School のウェブアプリ" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/mergington-high-school-webapp.png" />
 
@@ -45,7 +45,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 ただし今日のコーディングでは、[GitHub Codespace](https://github.com/features/codespaces) という設定済みの開発環境の中で VS Code を使って練習します。
 
-> **ヒント**: 現在の機能とこれから出る機能については、[GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features) のドキュメントで学べます。
+> **ヒント**: 現在の機能と今後の機能については、[GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features) のドキュメントで学べます。
 
 ### ⌨️ やること：Copilot Chat にプロジェクトを紹介してもらう
 
@@ -75,7 +75,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
    | --- | --- | --- |
    | <img width="300" alt="AI 機能の利用を促す Copilot メニュー" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/copilot-sign-in-button.png" /> | <img width="300" alt="Copilot Chat のサインインボタン" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/copilot-sign-in-button-clicked.png" /> | <img width="300" alt="インライン候補が有効になった Copilot メニュー" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/copilot-signed-in.png" /> |
 
-   ここまでできていれば、拡張機能タブに表示されていなくても先に進めます。
+   サインインが確認できていれば、拡張機能タブに表示されていなくても先に進めます。
 
    </details>
 
@@ -106,7 +106,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 9. ブラウザーでウェブページを見たいので、URL とポートを探します。表示されていない場合は、下部のパネルを開いて **Ports** タブを選びます。
 
-10. 一覧からポート `8000` と、それに対応するリンクを探します。リンクにマウスを重ね、**Open in browser** のアイコンを選びます。
+10. 一覧からポート `8000` と、対応するリンクを探します。リンクにマウスを重ね、**Open in browser** のアイコンを選びます。
 
     ![Open in browser アイコン](https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/open-in-browser-icon.png)
 
@@ -116,7 +116,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 1. VS Code の下部パネルで **Terminal** タブを選び、右側のプラス `+` をクリックして新しいターミナルウィンドウを作ります。
 
-   > **注**: こうすることで、ウェブアプリを動かしている既存のデバッグセッションを止めずに済みます。
+   > **注**: 新しいターミナルを使うと、ウェブアプリを動かしている既存のデバッグセッションを止めずに済みます。
 
 2. 新しいターミナルウィンドウの中で、キーボードショートカット `Ctrl + I`（Windows）または `Cmd + I`（Mac）を使い、**Copilot の Terminal Inline Chat** を開きます。
 
@@ -132,9 +132,9 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 4. `Run` ボタンを押すと、Copilot がターミナルのコマンドを入れて実行してくれます。コピーと貼り付けは不要です。
 
-5. 少し待ってから、VS Code の下部ステータスバーの左側で現在のブランチを確認します。`accelerate-with-copilot` になっていれば、この Step は完了です。
+5. 少し待ってから、VS Code の下部ステータスバーの左側で現在のブランチを確認します。`accelerate-with-copilot` になっていれば、Step 1 は完了です。
 
-6. ブランチが GitHub に push されたので、Mona があなたの作業を確認しています。少し待って、Issue のコメントを見てください。進捗と次の Step が投稿されます。
+6. ブランチが GitHub に push されたので、Mona が作業を確認しています。少し待って、Issue のコメントを見てください。進捗と次の Step が投稿されます。
 
 <details>
 <summary>うまくいかないとき 🤷</summary><br/>
@@ -150,7 +150,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 ## Step 2: Copilot で作業を進める（Getting work done with Copilot）
 
-前の Step では、GitHub Copilot にプロジェクトの内容を教えてもらいました。それだけでも大きな時間短縮ですが、次は実際の作業をしてみましょう。
+前の Step では、GitHub Copilot にプロジェクトの内容を教えてもらいました。説明を受けるだけでも大きな時間短縮ですが、次は実際の作業をしてみましょう。
 
 🐛 **ウェブサイトにバグがあります** 🐛
 
@@ -160,11 +160,11 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 ### 📖 理論：Copilot の仕組み
 
-ひとことで言うと、Copilot はとても専門性の高い同僚だと考えられます。うまく働いてもらうには、背景（コンテキスト）と、はっきりした指示（プロンプト）を渡す必要があります。さらに、人それぞれ経験が違って得意なことが違うように、Copilot にも複数のモデルがあります。
+ひとことで言うと、Copilot はとても専門性の高い同僚だと考えられます。うまく働いてもらうには、背景（コンテキスト）と、はっきりした指示（プロンプト）を渡す必要があります。さらに、人によって経験や得意なことが違うように、Copilot にも複数のモデルがあります。
 
 - **どうやってコンテキストを渡す？**: 開発環境の中では、Copilot は近くのコードと開いているタブを自動的に見ています。チャットを使う場合は、ファイルを明示的に指定することもできます。
 
-- **どのモデルを選ぶ？**: この演習ではあまり気にしなくて構いません。いろいろなモデルを試すのも楽しみのひとつです。それはまた別のレッスンで。 🤖
+- **どのモデルを選ぶ？**: 演習ではあまり気にしなくて構いません。いろいろなモデルを試すのも楽しみのひとつです。モデル選びはまた別のレッスンで。 🤖
 
 - **プロンプトはどう書く？**: はっきりと具体的に書くほど、Copilot はよい仕事をします。ただし従来の仕組みと違って、後から追加のプロンプトで指示を補うことができます。
 
@@ -185,11 +185,11 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
    1. `src/app.py` ファイルを開きます。
 
-      > **ヒント**: Copilot がチャットの中で `src/app.py` に触れている場合は、チャットビューでそのファイル名を直接クリックして開けます。
+      > **ヒント**: Copilot がチャットの中で `src/app.py` に触れている場合は、チャットビューでファイル名を直接クリックして開けます。
 
    2. ファイルの下のほうにある `signup_for_activity` 関数を探します。
 
-   3. 生徒を追加する処理を説明しているコメント行を探します。その上が、申し込み済みかどうかの確認を入れるのに自然な場所です。
+   3. 生徒を追加する処理を説明しているコメント行を探します。コメント行の上が、申し込み済みかどうかの確認を入れるのに自然な場所です。
 
    4. 次のコメントを入力して Enter を押し、次の行へ移ります。少し待つと、Copilot の候補が薄い文字（シャドーテキスト）で表示されます。 🎉
 
@@ -206,7 +206,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
    <details>
    <summary>結果の例</summary><br/>
 
-   Copilot は日々成長していて、いつも同じ結果になるとは限りません。候補が気に入らない場合は、この演習を作ったときに得られた正しい候補の例を載せておきます。これを使って先に進んでも構いません。
+   Copilot は日々成長していて、いつも同じ結果になるとは限りません。候補が気に入らない場合のために、演習を作ったときに得られた正しい候補の例を載せておきます。例を使って先に進んでも構いません。
 
    ```python
    @app.post("/activities/{activity_name}/signup")
@@ -232,13 +232,13 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 ### ⌨️ やること：Copilot にサンプルデータを作ってもらう 📋
 
-新しいプロジェクトの開発では、テスト用に本物らしい架空のデータがあると便利なことがよくあります。Copilot はこの作業がとても得意なので、課外活動のサンプルをもう少し追加してみましょう。あわせて、**Inline Chat** という別のやり取りの方法も使います。
+新しいプロジェクトの開発では、テスト用に本物らしい架空のデータがあると便利なことがよくあります。Copilot はサンプル作りがとても得意なので、課外活動のサンプルをもう少し追加してみましょう。あわせて、**Inline Chat** という別のやり取りの方法も使います。
 
 **Inline Chat** と **Copilot Chat** パネルは似ていますが、扱う範囲が違います。Copilot Chat は複数ファイルにまたがる質問や、調べながらの質問に向いています。Inline Chat は、目の前の 1 行やかたまりについて的を絞って助けてほしいときのほうが速いです。
 
-1. `src/app.py` ファイルの上のほう（23 行目あたり）にある `activities` 変数を探します。ここにサンプルの課外活動が設定されています。
+1. `src/app.py` ファイルの上のほう（23 行目あたり）にある `activities` 変数を探します。サンプルの課外活動が設定されています。
 
-2. `activities` 辞書の全体を、上から下へマウスでドラッグして選択します。こうすると、次のプロンプトのためのコンテキストを Copilot に渡せます。
+2. `activities` 辞書の全体を、上から下へマウスでドラッグして選択します。選択すると、次のプロンプトのためのコンテキストを Copilot に渡せます。
 
    <img width="700" alt="インラインチャットを開く前に選択した activities 辞書" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/activities-dict-highlighted.png" />
 
@@ -260,7 +260,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
    <details>
    <summary>結果の例</summary><br/>
 
-   Copilot は日々成長していて、いつも同じ結果になるとは限りません。候補が気に入らない場合は、この演習を作ったときに得られた結果の例を載せておきます。うまくいかないときは、これを使って先に進んでも構いません。
+   Copilot は日々成長していて、いつも同じ結果になるとは限りません。候補が気に入らない場合のために、演習を作ったときに得られた結果の例を載せておきます。うまくいかないときは、例を使って先に進んでも構いません。
 
    ```python
    # In-memory activity database
@@ -328,7 +328,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
 
 ### ⌨️ やること：作業内容の説明を Copilot に書いてもらう 💬
 
-バグを直し、サンプルの活動を増やせました。次は、この作業をコミットして GitHub に push します。ここでも Copilot に手伝ってもらいましょう。
+バグを直し、サンプルの活動を増やせました。次は、作業をコミットして GitHub に push します。今回も Copilot に手伝ってもらいましょう。
 
 1. 左のサイドバーで `Source Control` タブを選びます。
 
@@ -339,7 +339,7 @@ IDE で作業するとき、GitHub Copilot とは主に次の形でやり取り�
    ![変更をステージするアイコン](https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/staging-changes-icon.png)
 
 3. ステージした変更の一覧の上にある **Message** の入力欄を見つけます。ただし、今は**何も入力しないでください**。
-   - ふだんはここに変更内容の短い説明を書きますが、今回は Copilot に手伝ってもらいます。
+   - ふだんは入力欄に変更内容の短い説明を書きますが、今回は Copilot に手伝ってもらいます。
 
 4. **Message** 入力欄の右にある **Generate Commit Message** ボタン（きらきらのアイコン）を見つけてクリックします。
 
@@ -387,11 +387,11 @@ Agent Mode は、依頼を処理する中で専門的な作業を行うために
 >
 > 詳しくは [MCP servers](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) と [GitHub MCP Server](https://github.com/github/github-mcp-server) を参照してください。
 
-それでは **Agent Mode** を試してみましょう。 👩‍🚀
+では **Agent Mode** を試してみましょう。 👩‍🚀
 
 ### ⌨️ やること：Copilot で新しい機能を追加する 🚀
 
-このウェブサイトは活動を一覧表示していますが、参加者は伏せられたままです。 🤫
+ウェブサイトは活動を一覧表示していますが、参加者は伏せられたままです。 🤫
 
 Copilot を使って、各活動の下に申し込み済みの生徒を表示するように変えてみましょう。
 
@@ -399,7 +399,7 @@ Copilot を使って、各活動の下に申し込み済みの生徒を表示す
 
    <img width="350" alt="Agent モードのドロップダウン" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/agent-mode-dropdown.png" />
 
-2. ウェブページに関係するファイルを開き、それぞれのエディターウィンドウ（またはファイル）をチャットパネルへドラッグして、コンテキストとして使うよう Copilot に伝えます。
+2. ウェブページに関係するファイルを開き、各エディターウィンドウ（またはファイル）をチャットパネルへドラッグして、コンテキストとして使うよう Copilot に伝えます。
 
    - `src/static/app.js`
    - `src/static/index.html`
@@ -421,7 +421,7 @@ Copilot を使って、各活動の下に申し込み済みの生徒を表示す
    > Remember to make it pretty!
    > ```
 
-   Copilot が作業を終えたあと、どの変更を残すかを決めるのはあなたです。
+   Copilot が作業を終えたあと、どの変更を残すかは自分で決めます。
 
    下の **Keep** ボタンを使って、すべての変更をまとめて受け入れる／破棄する、または 1 件ずつ確認して決める、のどちらもできます。チャットパネルからでも、編集された各ファイルを見ながらでも操作できます。
 
@@ -448,7 +448,7 @@ Copilot を使って、各活動の下に申し込み済みの生徒を表示す
 
 5. 変更が問題ないと確認できたら、パネルで提案された編集を 1 つずつ確認し、**Keep** を押して適用します。
 
-   > **ヒント**: 変更をそのまま受け入れる、手で直す、チャットで追加の指示を出して調整する、のいずれもできます。
+   > **ヒント**: 提案された変更を受け入れる、手で直す、チャットで追加の指示を出して調整する、のいずれもできます。
 
 ### ⌨️ やること：Agent モードで「登録解除」ボタンを動くように追加する
 
@@ -475,7 +475,7 @@ Copilot を使って、各活動の下に申し込み済みの生徒を表示す
 
    `#codebase` ツールは、いまの作業に関係するファイルやコードのかたまりを Copilot が探すために使います。
 
-   > **注**: この演習では、結果をなるべく同じにするために `#codebase` ツールを明示的に指定しています。
+   > **注**: 演習では、結果をなるべく同じにするために `#codebase` ツールを明示的に指定しています。
    > `#codebase` を**付けずに**同じプロンプトを試して、Agent Mode が自分でプロジェクト全体のコンテキストを集めるかどうかを見てみるのもよいでしょう。
 
 4. Copilot が終わったら、コードの変更とウェブサイト上の結果を確認します。結果が気に入ったら **Keep** ボタンを押します。気に入らなければ、Copilot にフィードバックを返して調整してみてください。
@@ -507,13 +507,13 @@ Copilot を使って、各活動の下に申し込み済みの生徒を表示す
 
 前の Step では、Agent Mode のおかげで速く動き、新しい機能を出せました。 🚀
 
-今度は 1 回だけ速度を落として、設計者のように進めます。まずしっかりしたテスト方針を決め、それから実装に渡します。こうすると見通しがよくなり、想定外が減り、結果もきれいになります。 🧪
+今度は 1 回だけ速度を落として、設計者のように進めます。まずしっかりしたテスト方針を決めてから、実装に渡します。計画を先に立てると見通しがよくなり、想定外が減り、結果もきれいになります。 🧪
 
 ### 📖 理論：Copilot Plan Agent とは
 
 Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/planning) は、コードを変更する前に解決策を設計する手助けをします。
 
-いきなり編集を始めるのではなく、依頼内容を調べ、確認の質問をし、あなたが練り直せる実装計画を書き出します。
+いきなり編集を始めるのではなく、依頼内容を調べ、確認の質問をし、練り直せる実装計画を書き出します。
 
 #### Plan Agent の要点
 
@@ -521,9 +521,9 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 | --- | --- |
 | 目的 | コーディングを始める前に、構造化された実装計画を作ります。 |
 | コンテキストの収集 | 読み取り専用の調査で、要件と制約を理解します。 |
-| 進め方 | 確認の質問をし、その答えを使って計画を更新します。 |
+| 進め方 | 確認の質問をし、答えを使って計画を更新します。 |
 | 繰り返し | 実装前に何度でも計画を練り直せます。 |
-| 安全性 | あなたが計画を承認して **Agent Mode** に引き渡すまで、ファイルを編集しません。 |
+| 安全性 | 計画を承認して **Agent Mode** に引き渡すまで、ファイルを編集しません。 |
 | 引き渡し | **Start implementation** ボタンで、承認した計画を **Agent Mode** に渡してコーディングを始めます。 |
 
 > **ヒント**: 大まかな依頼から始めて、後続のプロンプトで制約や詳細を足していけます。
@@ -568,7 +568,7 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 
    <img width="350" alt="Start implementation ボタン" src="https://raw.githubusercontent.com/skills/getting-started-with-github-copilot/main/.github/images/plan-mode-start-implementation.png" />
 
-   ボタンを押すと **Plan** から **Agent Mode** に切り替わったことに注目してください。ここから先は、これまでと同じように Copilot がコードベースを編集できます。
+   ボタンを押すと **Plan** から **Agent Mode** に切り替わったことに注目してください。切り替わったあとは、前の Step と同じように Copilot がコードベースを編集できます。
 
 6. 作った計画を Copilot が実装していく様子を見ます。ツールの実行（コマンドの実行や仮想環境の作成など）の許可を求められることがあります。作業を続けられるよう承認してください。
 
@@ -594,27 +594,27 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 
 ## Step 5: pull request で GitHub Copilot を使う（Using GitHub Copilot within a pull request）
 
-おめでとうございます！ この演習のコーディング（と VS Code での作業）はこれで終わりです。あとは作業をマージするだけです。 🎉 締めくくりに、pull request を速く進められる、利用が限られた 2 つの Copilot 機能を学びましょう。
+おめでとうございます！ 演習のコーディング（と VS Code での作業）は終わりです。あとは作業をマージするだけです。 🎉 締めくくりに、pull request を速く進められる、利用が限られた 2 つの Copilot 機能を学びましょう。
 
 ### 📖 理論：pull request のための GitHub Copilot
 
 #### Copilot pull request summaries
 
-ふだんは、自分のメモやコミットメッセージを見返して、pull request の説明としてまとめます。コミットメッセージがそろっていなかったり、コードに説明が足りなかったりすると、これには時間がかかります。Copilot は pull request のすべての変更を見て、重要なところを参照付きで示してくれます。
+ふだんは、自分のメモやコミットメッセージを見返して、pull request の説明としてまとめます。コミットメッセージがそろっていなかったり、コードに説明が足りなかったりすると、まとめるのに時間がかかります。Copilot は pull request のすべての変更を見て、重要なところを参照付きで示してくれます。
 
 #### Copilot code review
 
 自分の作業は多くの目で見てもらうほどよいので、通常のピアレビューの前に、Copilot に一度見てもらいましょう。Copilot は、簡単な調整で直せるよくある間違いを見つけるのが得意です。ただし、責任を持って使うことを忘れないでください。
 
-> **注**: これらの機能は **GitHub Copilot** の有料プランでのみ使えます。[[docs]](https://docs.github.com/en/copilot/get-started/plans)
+> **注**: 2 つの機能は **GitHub Copilot** の有料プランでのみ使えます。[[docs]](https://docs.github.com/en/copilot/get-started/plans)
 
 ### ⌨️ やること：Copilot で PR を要約してレビューする
 
-**Copilot pull request summaries** と **Copilot code review** はどちらも利用が限られているため、この作業のほとんどは任意です。利用できない場合は、任意と書かれた手順を飛ばしてください。
+**Copilot pull request summaries** と **Copilot code review** はどちらも利用が限られているため、以下の手順のほとんどは任意です。利用できない場合は、任意と書かれた手順を飛ばしてください。
 
 1. ブラウザーで別のタブを開き、自分の演習リポジトリを開きます。
 
-2. 新しい pull request の作成をすすめる**通知バナー**が出ているかもしれません。それをクリックするか、上部の **Pull Requests** タブから **pull request を新規作成**します。次の内容を使ってください。
+2. 新しい pull request の作成をすすめる**通知バナー**が出ているかもしれません。バナーをクリックするか、上部の **Pull Requests** タブから **pull request を新規作成**します。次の内容を使ってください。
 
    - **base:** `main`
    - **compare:** `accelerate-with-copilot`
@@ -630,9 +630,9 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 
    > **ヒント**: Copilot にレビューを依頼した記録がログに残ることに注目してください。
 
-5. 一番下の **Merge pull request** ボタンを押します。よくできました！ これで完了です。 🎉
+5. 一番下の **Merge pull request** ボタンを押します。よくできました！ 完了です。 🎉
 
-6. Mona が確認しています。Issue のコメントを待ってください。フィードバックと、この演習の最終レビューが投稿されます。
+6. Mona が確認しています。Issue のコメントを待ってください。フィードバックと、演習の最終レビューが投稿されます。
 
 ---
 
@@ -640,4 +640,4 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 
 - Microsoft Learn に戻り、モジュールの**知識チェック**（モジュール評価）を受けてください。
 - Codespace は**停止**してください。ただし**削除はしないでください**。
-- このリポジトリは削除しないでください。
+- 演習リポジトリは削除しないでください。

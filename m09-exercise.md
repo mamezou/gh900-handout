@@ -6,9 +6,9 @@ pull request を出します。「初めて貢献する人の練習」を受け�
 本家に日本語の手順があります：
 [README.ja.md](https://github.com/firstcontributions/first-contributions/blob/main/docs/translations/README.ja.md)
 
-ただし本家の README は**手元の PC に Git が入っている前提**で `git clone` から始まります。この研修では PC に Git を
-入れていないので、**GitHub 上で fork し、その fork に Codespace を作って、そのターミナルで操作**します。Codespace の中には
-リポジトリがすでに置かれているので `git clone` は行いません。それ以外は本家の手順と同じです。
+ただし本家の README は**手元の PC に Git が入っている前提**で `git clone` から始まります。研修では PC に Git を
+入れていないので、**GitHub 上で fork し、fork に Codespace を作って、Codespace のターミナルで操作**します。Codespace の中には
+リポジトリがすでに置かれているので `git clone` は行いません。違いは以上の点だけで、あとは本家の手順と同じです。
 
 - ボタン名、コマンド、ファイル名、ブランチ名は画面と一致させるため英語のままにしています。
 - 提出内容は**インターネットに公開されます**。実名やメールアドレスは不要です。GitHub のユーザー名で構いません。
@@ -74,11 +74,11 @@ pull request を出します。「初めて貢献する人の練習」を受け�
 3. 先頭と末尾を避けて、途中に自分の 1 行を追加します。
 4. 右上の **Commit changes...** を押し、ダイアログで
    **Create a new branch for this commit and start a pull request** を選び、ブランチ名を入れてコミットします。
-5. そのまま pull request の作成画面に進むので、base と compare を確認して **Create pull request** を押します。
+5. 続けて pull request の作成画面に進むので、base と compare を確認して **Create pull request** を押します。
 
 ## pull request の件名と本文の書き方
 
-- 件名は「この変更を適用すると〜する」と読める形で、命令形・現在形で書きます（`added` ではなく `add`）。
+- 件名は「変更を適用すると〜する」と読める形で、命令形・現在形で書きます（`added` ではなく `add`）。
 - 件名は 50 文字以内。大文字で始めて、末尾にピリオドは付けません。
 - 本文には「何を変えたか」と「なぜ変えたか」を書きます。「どうやって」は書きません。
 
