@@ -593,7 +593,7 @@ Copilot の [Plan Agent](https://code.visualstudio.com/docs/copilot/agents/plann
 
 ## Step 5: pull request で GitHub Copilot を使う（Using GitHub Copilot within a pull request）
 
-おめでとうございます！ 演習のコーディング（と VS Code での作業）は終わりです。あとは作業をマージするだけです。 🎉 締めくくりに、pull request を速く進められる、利用が限られた 2 つの Copilot 機能を学びましょう。
+おめでとうございます！ 演習のコーディング（と VS Code での作業）は終わりです。残りは作業のマージです。 🎉 締めくくりに、pull request を速く進められる、利用が限られた 2 つの Copilot 機能を学びましょう。
 
 ### 📖 理論：pull request のための GitHub Copilot
 

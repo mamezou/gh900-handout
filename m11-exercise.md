@@ -145,7 +145,7 @@ _お見事です！_ 🥳
 
 依存関係の脆弱性を Dependabot が知らせ、安全なバージョンに更新する pull request を作るところまで自動化できました。あとは pull request を確認してマージするだけで、依存関係のセキュリティ問題に遅れず対応できます。
 
-> **注**: Dependabot が提案した pull request が複数あったことに気づきましたか。マージしたのは **axios** 依存関係のものだけですが、他のものは **Pull requests** の一覧から消えています。axios 依存関係のアップグレードによって他の推移的依存関係にも変更が生じ、削除されたり別のバージョンに更新されたりしたためです。dependency graph に変化があるたびに、Dependabot は既存の pull request を自動で見直し、不要になったものを閉じます。まとめて全部マージせず、Dependabot に任せましょう。
+> **注**: Dependabot が提案した pull request が複数あったことに気づきましたか。マージしたのは **axios** 依存関係の pull request 1 件ですが、他のものは **Pull requests** の一覧から消えています。axios 依存関係のアップグレードによって他の推移的依存関係にも変更が生じ、削除されたり別のバージョンに更新されたりしたためです。dependency graph に変化があるたびに、Dependabot は既存の pull request を自動で見直し、不要になったものを閉じます。まとめて全部マージせず、Dependabot に任せましょう。
 
 <img width="955" alt="axios の PR がマージされ、他の 2 件が閉じられたことを示すスクリーンショット" src="https://raw.githubusercontent.com/skills/secure-repository-supply-chain/main/.github/images/axios-pr-merged-others-closed.png" />
 
