@@ -1,13 +1,12 @@
 # 演習 2 日本語訳：GitHub の概要（Introduction to GitHub）
 
-GitHub Skills「Introduction to GitHub」の日本語訳です。演習は英語で、自分のリポジトリの **Issues** に
-Step 1 から順に表示されます。画面の英語と訳を見比べながら進めてください。
+GitHub Skills「Introduction to GitHub」の日本語版です。開始リンクは日本語化したテンプレート（`mamezou/skills-ja-introduction-to-github`）を指しており、自分のリポジトリの **Issues** に Step 1 から順に**日本語で**表示されます。Issue と同じ内容を、手元で読み返す用に載せています。
 
 - ボタン名、ファイル名、ブランチ名、コミットメッセージは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックは入力された名前を見ています。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：45 分。ブラウザーだけで完結します。
 
-**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Exercise:+Introduction+to+GitHub&visibility=public)
+**演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Exercise:+Introduction+to+GitHub&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---
