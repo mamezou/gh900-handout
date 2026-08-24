@@ -4,16 +4,17 @@ GH-900 では、用途の異なる 3 つのサイトを使います。サイン�
 
 | サイト | サインインするアカウント | 用途 |
 | --- | --- | --- |
-| [esi.learnondemand.net](https://esi.learnondemand.net) | **個人の Microsoft アカウント** (Live ID) | コース教材の閲覧 |
-| [Microsoft Learn](https://learn.microsoft.com) | Microsoft アカウント (個人を推奨) | 各モジュール末の知識チェック、実績 |
+| [esi.learnondemand.net](https://esi.learnondemand.net) | **個人の Microsoft アカウント** (Live ID) | 受講登録 (Training Key の引き換え)。教材への入口 |
+| [Microsoft Learn](https://learn.microsoft.com) | Microsoft アカウント (個人を推奨) | **コース教材の本体**、各モジュール末の知識チェック、実績 |
 | [github.com](https://github.com) | GitHub アカウント | 演習 (手を動かす作業はすべて GitHub 上) |
 
-## 1. コース教材 (ESI) へのアクセス
+## 1. 受講登録 (ESI)
 
 1. https://esi.learnondemand.net を開きます。
 2. **個人の Microsoft アカウント**でサインインします (職場アカウントではなく、常に Microsoft アカウントを使います)。
 3. ページ上部の **Redeem Training Key** をクリックします。
-4. 講師がチャットで知らせる **Training Key** を入力し、画面の案内に従います。完了するとコース教材が開けます。
+4. 講師がチャットで知らせる **Training Key** を入力し、画面の案内に従います。
+5. 引き換え後に表示されるアクティビティ「GitHub Foundations」を一度開きます (教材の実体は Microsoft Learn のラーニングパスで、リンクから Learn へ移動します)。以降、授業で使うページは毎回チャットで届くので、探し回る必要はありません。
 
 動作の事前確認は https://aka.ms/lodtest でできます (システム要件の確認と、テスト起動)。
 
