@@ -9,6 +9,9 @@ GitHub Skills「Communicate using Markdown」の日本語版です。開始リ�
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-communicate-using-markdown&owner=%40me&name=skills-communicate-using-markdown&description=Exercise%3A+Communicate+using+Markdown&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
+
 ---
 
 ## Step 1: 見出しを追加する（Add headings）

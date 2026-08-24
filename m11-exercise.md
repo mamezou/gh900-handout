@@ -9,6 +9,9 @@ GitHub Skills「Secure your Repository Supply Chain」の日本語版です。�
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-secure-repository-supply-chain&owner=%40me&name=skills-secure-repository-supply-chain&description=Exercise:+Secure+your+Repository+Supply+Chain&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → Step 1 が出ます。
 
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
+
 ---
 
 ## Step 1: dependency graph で依存関係を確認して追加する（Review and add dependencies using dependency graph）

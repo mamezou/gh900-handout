@@ -9,6 +9,9 @@ GitHub Skills「Connect the dots」の日本語版です。開始リンクは日
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-connect-the-dots&owner=%40me&name=skills-connect-the-dots&description=My+clone+repository&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → リポジトリの **README** に Step 1 が出ます。
 
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **README** に表示される手順に沿って進めてください。このページは読み返し用です。
+
 ---
 
 ## Step 1: 重複した Issue を整理する（Resolve duplicate issues）

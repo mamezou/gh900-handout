@@ -10,6 +10,9 @@ GitHub Skills「Introduction to Git」の日本語版です。開始リンクは
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-introduction-to-git&owner=%40me&name=skills-introduction-to-git&description=Exercise:+Introduction+to+Git&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
+
 ## 演習で扱う範囲
 
 ```text

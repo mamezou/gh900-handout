@@ -9,6 +9,9 @@ GitHub Skills「Code with Codespaces」の日本語版です。開始リンク�
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=Exercise:+Code+with+Codespaces&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
+
 ---
 
 ## Step 1: codespace を起動してコードを push する（Start a codespace and push some code）
