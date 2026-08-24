@@ -14,6 +14,9 @@ Step 1 から順に**日本語で**表示されます。Issue と同じ内容を
 - 時間の目安：30 分（スキャンの待ち時間を含む）。ブラウザーだけで実施できます。
 
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-introduction-to-codeql&owner=%40me&name=skills-introduction-to-codeql&description=GitHub+Skills:+Introduction+to+CodeQL&visibility=public)
+
+> **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
+> リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
 ---

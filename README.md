@@ -25,6 +25,7 @@
 | M01 Git の概要 | [演習 1：Git を試す](m01-exercise.md) | Codespace（CLI と VS Code） |
 | M01 補足 | [変更の確認、ファイルの除外、コミットのやり直し](m01-git-supplement.md) | 自習用 |
 | M02 GitHub の概要 | [演習 2：GitHub のガイドツアー](m02-exercise.md) | ブラウザー |
+| M04 コードスキャン (任意実施) | [演習 4：CodeQL でコードスキャン](m04-exercise.md) | ブラウザー |
 | M05 GitHub Copilot | [演習 5：Copilot を使い始める](m05-exercise.md) | Codespace |
 | M06 Codespaces | [演習 6：Codespaces でコーディング](m06-exercise.md) | Codespace |
 | M08 Markdown | [演習 8：Markdown でコミュニケーション](m08-exercise.md) | ブラウザー |
