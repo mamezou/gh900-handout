@@ -5,6 +5,7 @@ GitHub Skills「Getting Started with GitHub Copilot」の日本語版です。�
 - 演習は **Codespace** の中で VS Code と GitHub Copilot を使います。題材は Mergington High School の課外活動申込サイト（Python / FastAPI）です。
 - Copilot を初めて使う場合は、Step 1 でサインインと利用規約への同意を求められます（Copilot Free で構いません）。
 - ボタン名、ファイル名、ブランチ名、コマンド、Copilot に入力するプロンプトは、画面と一致させるため英語のままにしています。**指定された名前は変えずに入力してください。** 自動チェックが名前を見ています。
+- VS Code の画面が日本語表示になっている場合、ボタン名は日本語で出ます（例: **Keep**（日本語表示では「保持」） →「保持」、**Commit** →「コミット」、**Source Control** →「ソース管理」）。手順は英語名で書いているので、対応する日本語のボタンを探してください。
 - **Copilot の応答は毎回変わります。** 各所にある「結果の例」（Example Results）は参考例です。同じ結果にならなくても、目的を満たしていれば先に進んでかまいません。
 - 各 Step を終えると、bot（Mona）が同じ Issue に次の Step をコメントします。出るまで 20〜30 秒待って、ページを再読み込みしてください。
 - 時間の目安：60 分（Step 1〜5 をすべて授業内で行います）。

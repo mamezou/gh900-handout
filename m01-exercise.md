@@ -10,6 +10,8 @@ GitHub Skills「Introduction to Git」の日本語版です。開始リンクは
 **演習の開始**: [自分用のリポジトリを作成する](https://github.com/new?template_owner=mamezou&template_name=skills-ja-introduction-to-git&owner=%40me&name=skills-introduction-to-git&description=Exercise:+Introduction+to+Git&visibility=public)
 → **Create repository** を押し、20 秒待ってから再読み込み → **Issues** タブに Step 1 が出ます。
 
+- VS Code の画面が日本語表示になっている場合、ボタン名は日本語で出ます（例: **Keep** →「保持」、**Commit** →「コミット」、**Source Control** →「ソース管理」）。手順は英語名で書いているので、対応する日本語のボタンを探してください。
+
 > **注意**: このページは手順の全体像です。実施するときは、まず上の開始リンクから自分のリポジトリを作り、
 > リポジトリの **Issues** に届く手順に沿って進めてください。このページは読み返し用です。
 
