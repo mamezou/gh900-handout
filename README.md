@@ -35,7 +35,7 @@
 | モジュール | 資料 | 演習の場所 |
 | --- | --- | --- |
 | M09 オープンソースへの貢献 | [演習 9：最初の pull request](m09-exercise.md) | ブラウザー + Codespace |
-| M10 InnerSource | 講師が配布するチェックリスト | — |
+| M10 InnerSource | [リポジトリ診断チェックリスト](m10-checklist.md) | 講師の画面共有を見て判定 |
 | M11 セキュアなリポジトリ | [演習 11：サプライチェーンを保護する](m11-exercise.md) | ブラウザー |
 | M14 pull request | [演習 14：pull request をレビューする](m14-exercise.md) | ブラウザー |
 | M15 リポジトリ履歴 | [演習 15：点をつなげる](m15-exercise.md) | ブラウザー |
