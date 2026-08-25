@@ -10,6 +10,8 @@
 - ボタン名、ファイル名、ブランチ名、コミットメッセージは、画面と同じにするため英語のままです。**指定された名前は変えずに入力してください。** 自動チェックがその名前を見ています。
 - 作ったリポジトリと Codespace は、研修が終わるまで削除しないでください（後のモジュールで使います）。Codespace は停止だけしてください。
 - 各モジュールの最後に、Microsoft Learn の「モジュール評価」（知識チェック、日本語）を受けます。Learn へのサインインが必要です。
+- **日本語の資料は英語の原本を訳したものです。訳と画面が食い違うとき、または訳の意味が取れないときは、英語の原本を正として確認してください。** 原本のリンクは各表の「原本（英語）」列にあります。
+- 手順を進める場所は、原本ではなく自分のリポジトリの **Issues**（M15 は README）です。自動チェックは自分のリポジトリを見ているため、原本は読む用として開いてください。
 
 ## はじめに
 
@@ -20,26 +22,26 @@
 
 ## Day 1
 
-| モジュール | 資料 | 演習の場所 |
-| --- | --- | --- |
-| M01 Git の概要 | [演習 1：Git を試す](m01-exercise.md) | Codespace（CLI と VS Code） |
-| M01 補足 | [変更の確認、ファイルの除外、コミットのやり直し](m01-git-supplement.md) | 自習用 |
-| M02 GitHub の概要 | [演習 2：GitHub のガイドツアー](m02-exercise.md) | ブラウザー |
-| M04 コードスキャン (任意実施) | [演習 4：CodeQL でコードスキャン](m04-exercise.md) | ブラウザー |
-| M05 GitHub Copilot | [演習 5：Copilot を使い始める](m05-exercise.md) | Codespace |
-| M06 Codespaces | [演習 6：Codespaces でコーディング](m06-exercise.md) | Codespace |
-| M08 Markdown | [演習 8：Markdown でコミュニケーション](m08-exercise.md) | ブラウザー |
+| モジュール | 資料 | 演習の場所 | 原本（英語） |
+| --- | --- | --- | --- |
+| M01 Git の概要 | [演習 1：Git を試す](m01-exercise.md) | Codespace（CLI と VS Code） | [原本](https://github.com/skills/introduction-to-git) |
+| M01 補足 | [変更の確認、ファイルの除外、コミットのやり直し](m01-git-supplement.md) | 自習用 | — |
+| M02 GitHub の概要 | [演習 2：GitHub のガイドツアー](m02-exercise.md) | ブラウザー | [原本](https://github.com/skills/introduction-to-github) |
+| M04 コードスキャン (任意実施) | [演習 4：CodeQL でコードスキャン](m04-exercise.md) | ブラウザー | [原本](https://github.com/skills/introduction-to-codeql) |
+| M05 GitHub Copilot | [演習 5：Copilot を使い始める](m05-exercise.md) | Codespace | [原本](https://github.com/skills/getting-started-with-github-copilot) |
+| M06 Codespaces | [演習 6：Codespaces でコーディング](m06-exercise.md) | Codespace | [原本](https://github.com/skills/code-with-codespaces) |
+| M08 Markdown | [演習 8：Markdown でコミュニケーション](m08-exercise.md) | ブラウザー | [原本](https://github.com/skills/communicate-using-markdown) |
 
 ## Day 2
 
-| モジュール | 資料 | 演習の場所 |
-| --- | --- | --- |
-| M09 オープンソースへの貢献 | [演習 9：最初の pull request](m09-exercise.md) | ブラウザー + Codespace |
-| M10 InnerSource | [リポジトリ診断チェックリスト](m10-checklist.md) | 講師の画面共有を見て判定 |
-| M11 セキュアなリポジトリ | [演習 11：サプライチェーンを保護する](m11-exercise.md) | ブラウザー |
-| M14 pull request | [演習 14：pull request をレビューする](m14-exercise.md) | ブラウザー |
-| M15 リポジトリ履歴 | [演習 15：点をつなげる](m15-exercise.md) | ブラウザー |
-| M16 Copilot と Python | [Microsoft Learn の日本語ページ](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-python/5-exercise-python-web-api) | Codespace |
+| モジュール | 資料 | 演習の場所 | 原本（英語） |
+| --- | --- | --- | --- |
+| M09 オープンソースへの貢献 | [演習 9：最初の pull request](m09-exercise.md) | ブラウザー + Codespace | [原本](https://github.com/firstcontributions/first-contributions) |
+| M10 InnerSource | [リポジトリ診断チェックリスト](m10-checklist.md) | 講師の画面共有を見て判定 | [原本](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/) |
+| M11 セキュアなリポジトリ | [演習 11：サプライチェーンを保護する](m11-exercise.md) | ブラウザー | [原本](https://github.com/skills/secure-repository-supply-chain) |
+| M14 pull request | [演習 14：pull request をレビューする](m14-exercise.md) | ブラウザー | [原本](https://github.com/skills/review-pull-requests) |
+| M15 リポジトリ履歴 | [演習 15：点をつなげる](m15-exercise.md) | ブラウザー | [原本](https://github.com/skills/connect-the-dots) |
+| M16 Copilot と Python | [Microsoft Learn の日本語ページ](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-python/5-exercise-python-web-api) | Codespace | [原本](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api) |
 
 ## 参考
 
