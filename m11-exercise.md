@@ -39,7 +39,7 @@ GitHub には、環境内の依存関係を把握し、脆弱性を知り、パ�
 > **注**: dependency graph は、新しいパブリックリポジトリでは既定で有効です。
 
 1. **Settings** タブを開きます。
-2. **Advanced Security** をクリックします。
+2. **Advanced Security**（アカウントによっては **Code security**）をクリックします。
 3. **Dependency Graph** が **Enabled** になっていることを確認します。
 
 ### ⌨️ やること 1.2：新しい依存関係を追加して dependency graph を見る（Add a new dependency and view your dependency graph）
@@ -97,7 +97,7 @@ Dependabot alerts は、コードが安全でないパッケージに依存し�
 ### ⌨️ やること 2.2：Dependabot alerts を有効にする（Enable Dependabot alerts）
 
 1. **Settings** タブを開きます。
-2. **Advanced Security** の設定を表示します。
+2. **Advanced Security**（アカウントによっては **Code security**）の設定を表示します。
 3. Dependabot alerts を **Enable** にします。
 4. **Dependabot がアラートを確認するまで 60 秒ほど待ちます。**
 5. **Security** タブを開きます。
@@ -133,7 +133,7 @@ _Dependabot alerts の有効化・確認・作成、よくできました ✨_
 
 ### ⌨️ やること 3.1：Dependabot security updates を有効にして動かす（Enable and trigger Dependabot security updates）
 
-1. **Settings** タブを開き、**Advanced Security** を選びます。
+1. **Settings** タブを開き、**Advanced Security**（アカウントによっては **Code security**）を選びます。
 2. **Dependabot security updates** を有効にします。新しい pull request が現れるまで 30〜60 秒待つ必要があるかもしれません。
 3. リポジトリの **Pull requests** タブを開き、Dependabot が見つけたものを確認します。
 4. **axios** 依存関係にパッチを当てる新しい pull request を探します。
@@ -160,7 +160,7 @@ security updates はアラートの解決を自動化してくれますが、単
 
 ### ⌨️ やること 4.1：Dependabot version updates を有効にして動かす（Enable and trigger Dependabot version updates）
 
-1. **Settings** タブを開き、**Advanced Security** を選びます。
+1. **Settings** タブを開き、**Advanced Security**（アカウントによっては **Code security**）を選びます。
 2. **Dependabot version updates** を探して **Configure** をクリックすると、内容があらかじめ入ったファイルエディターが開きます。ファイル名は `dependabot.yml` です。
 3. `dependabot.yml` には、リポジトリ内の GitHub Actions（`github-actions` パッケージエコシステム）を更新する設定があらかじめ入っています。
 4. `dependabot.yml` 設定ファイルを編集して、もう 1 つエントリを追加します。次のようになります。
