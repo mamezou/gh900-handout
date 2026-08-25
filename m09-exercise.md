@@ -20,7 +20,8 @@ pull request を出します。「初めて貢献する人の練習」を受け�
 
 1. [First Contributions](https://github.com/firstcontributions/first-contributions) を開き、README をざっと読みます。
 2. 右上の **Fork** → **Create fork** を押します。自分のアカウントにコピー（fork）ができます。
-3. **自分の fork のページ**で **< > Code** → **Codespaces** タブ → **Create codespace on main** を押します。
+3. **自分の fork のページ**で **< > Code** ボタンを押し、**Codespaces** タブ →
+   **Create codespace on main** を押します。
    1〜3 分で VS Code の画面が開きます。**「自分の fork のページ」から作るのが大事です。**
    元のリポジトリ側で Codespace を作ると、あとで push できません。
 
