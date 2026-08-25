@@ -41,7 +41,7 @@
 | M11 セキュアなリポジトリ | [演習 11：サプライチェーンを保護する](m11-exercise.md) | ブラウザー | [原本](https://github.com/skills/secure-repository-supply-chain) |
 | M14 pull request | [演習 14：pull request をレビューする](m14-exercise.md) | ブラウザー | [原本](https://github.com/skills/review-pull-requests) |
 | M15 リポジトリ履歴 | [演習 15：点をつなげる](m15-exercise.md) | ブラウザー | [原本](https://github.com/skills/connect-the-dots) |
-| M16 Copilot と Python | [Microsoft Learn の日本語ページ](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-python/5-exercise-python-web-api) | Codespace | [原本](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api) |
+| M16 Copilot と Python | [演習 16：Python Web API を更新する](m16-exercise.md) | Codespace | [原本](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api) |
 
 ## 参考
 
