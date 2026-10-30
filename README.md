@@ -15,7 +15,7 @@
 
 ## 出典とライセンス
 
-この資料の演習手順（M01・M02・M04・M05・M06・M08・M11・M14・M15）は、[GitHub Skills](https://github.com/skills) の各演習（GitHub, Inc.、MIT ライセンス）にもとづく日本語訳と補足です。元のライセンス文は [LICENSE](LICENSE) に置いています。
+この資料の演習手順（M01・M02・M04・M05・M06・M08・M11・M14・M15）は、[GitHub Skills](https://github.com/skills) の各演習（GitHub, Inc. ほか、MIT ライセンス）にもとづく日本語訳と補足です。元のライセンス文は [LICENSE](LICENSE) に置いています。
 
 ## はじめに
 
