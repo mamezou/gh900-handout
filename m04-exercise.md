@@ -48,7 +48,7 @@ SQL インジェクション、クロスサイトスクリプティング、コ�
 クエリスイートをあらかじめ用意しています。
 
 多くの場合、既定のクエリスイートを選ぶだけで CodeQL を利用できます。拡張クエリスイートを選んだり、
-[GitHub Actions]() を使って独自のクエリスイートを設定したりすることもできます。
+GitHub Actions を使って独自のクエリスイートを設定したりすることもできます。
 
 <img width="250" align="right" alt="CodeQL の既定の設定画面" src="https://raw.githubusercontent.com/skills/introduction-to-codeql/main/.github/images/codeql-default-configuration-box.png"/>
 
